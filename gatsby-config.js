@@ -6,4 +6,8 @@
 
 module.exports = {
   /* Your site config here */
+  plugins: [
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-mdx`
+  ]
 }
