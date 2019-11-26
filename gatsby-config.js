@@ -5,9 +5,15 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Storyfolio`,
+    url: `https://katmh.com/storyfolio`,
+    description: `TBD`,
+  },
   plugins: [
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-mdx`
+    `gatsby-plugin-mdx`,
+    `gatsby-plugin-theme-ui`,
+    `gatsby-plugin-react-helmet`
   ]
 }
