@@ -18,10 +18,15 @@ const Layout = ({children}) => (
                     padding: 0
                 },
                 a: {
-                    color: 'link',
+                    color: '#39c',
                 },
                 '.external': {
-                    color: 'externalLink'
+                    color: '#f69'
+                },
+                code: {
+                    display: 'inline-block',
+                    background: '#ededed',
+                    padding: '0 7.5px',
                 }
             }}
         />
