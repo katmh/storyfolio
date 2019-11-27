@@ -14,6 +14,13 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-theme-ui`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'fonts',
+        path: `${__dirname}/src/fonts/`
+      }
+    }
   ]
 }

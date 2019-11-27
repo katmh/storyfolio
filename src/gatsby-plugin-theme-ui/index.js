@@ -1,10 +1,12 @@
 export default {
     fonts: {
-        body: 'system-ui, sans-serif',
+        body: 'Inter, Arial, sans-serif',
     },
     colors: {
         textHeading: '#222',
-        textBody: '#333'
+        textBody: '#333',
+        link: '#69c',
+        externalLink: '#c3c',
     },
     styles: {
         p: {

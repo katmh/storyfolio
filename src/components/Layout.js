@@ -16,6 +16,12 @@ const Layout = ({children}) => (
                     boxSizing: 'border-box',
                     margin: 0,
                     padding: 0
+                },
+                a: {
+                    color: 'link',
+                },
+                '.external': {
+                    color: 'externalLink'
                 }
             }}
         />
