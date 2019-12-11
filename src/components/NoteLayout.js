@@ -23,7 +23,7 @@ const NoteLayout = ({children}) => (
                 color: '#555'
             }}
         >
-            <p>storyfolio notes!</p>
+            <p><a href="/">storyfolio</a> notes!</p>
         </span>
         {children}
     </div>
