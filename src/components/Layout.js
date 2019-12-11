@@ -20,6 +20,9 @@ const Layout = ({children}) => (
                 a: {
                     color: '#39c',
                 },
+                'a:visited': {
+                    color: '#366',
+                },
                 '.external': {
                     color: '#f69'
                 },

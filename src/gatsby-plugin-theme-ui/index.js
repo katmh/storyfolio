@@ -29,6 +29,16 @@ export default {
             fontSize: 7,
             mb: 4,
             color: 'textHeading'
+        },
+        hr: {
+            my: '3rem',
+            width: '80%',
+            mx: 'auto'
+        },
+        img: {
+            maxWidth: '100%',
+            display: 'block',
+            my: 2,
         }
     }
 }

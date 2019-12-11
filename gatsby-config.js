@@ -12,7 +12,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-mdx`,
     `gatsby-plugin-theme-ui`,
     `gatsby-plugin-react-helmet`,
     {
@@ -21,6 +20,21 @@ module.exports = {
         name: 'fonts',
         path: `${__dirname}/src/fonts/`
       }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'pages',
+        path: `${__dirname}/src/pages/`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve("./src/components/default-page-layout.js")
+        }
+      },
     }
   ]
 }
