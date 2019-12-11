@@ -26,7 +26,7 @@ const Layout = ({children}) => (
                 '.external': {
                     color: '#f69'
                 },
-                code: {
+                'code, kbd': {
                     display: 'inline-block',
                     background: '#ededed',
                     padding: '0 7.5px',
